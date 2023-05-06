@@ -27,16 +27,36 @@ h3{
     border-radius: 5%;
     background-color: white;
     height: 100px;
-    width:500px;
+    width:1150px;
 }
-.box2{
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    gap:20px; */
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
+.box1{
+    margin-right: auto;
+}
 
+.bigbox1{
+    display: flex;
+    flex-direction: row;
+}
+.bigbox2{
+    display: flex;
+    flex-direction: row;
+}
+.box3{
+    margin-right: auto;
+}
+.bigbox3{
+    display: flex;
+    flex-direction: row;
+}
+.bigbox4{
+    display: flex;
+    flex-direction: row;
+}
+.box6{
+    margin-right: auto;
+}
+.box8{
+    margin-right: auto;
 }
 .first{
     font-size: 50px;
@@ -49,10 +69,17 @@ h3{
 .slast{
     background-color: rgb(222, 218, 218);
     padding: 0.5%;
-    margin: 1%;
+    margin: 5%;
     width: 85px;
     height: 30px;
     align-items: center;
+}
+.last{
+    margin: 5%;
+}
+.innerbox{
+    display: flex;
+    flex-direction: row;
 }
 .end{
     background-color: rgb(243, 20, 20);
@@ -67,4 +94,5 @@ footer{
     display:flex;
     justify-content: end;
     align-items: center;
+    margin-top: 5%;
 }
